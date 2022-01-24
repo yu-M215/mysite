@@ -8,7 +8,6 @@
 
 header {
   width: 100%;
-  background-color: #ec715f;
   height: 70px;
 }
 
@@ -67,6 +66,11 @@ nav {
 }
 
 /* 共通箇所 */
+
+header,
+footer {
+  background-color: #ec715f;
+}
 
 .text {
   text-align: center;
@@ -266,4 +270,19 @@ p {
 
 .sns-list li:nth-child(2) {
   margin: 0 20px;
+}
+
+/* フッター */
+
+footer {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  font-size: 16px;
+  color: #fafafa;
 }
