@@ -46,8 +46,10 @@ nav {
   background-image: url(./img/mv.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
   padding-top: 200px;
   color: #fafafa;
+  text-align: center;
 }
 
 #main-visual h2 {
@@ -56,4 +58,5 @@ nav {
 
 #main-visual p {
   font-size: 20px;
+  margin-top: 10px;
 }
