@@ -80,7 +80,8 @@ nav {
 }
 
 #portfolio,
-#feature {
+#feature,
+#profile {
   width: 100%;
   padding: 90px 0;
 }
@@ -95,11 +96,12 @@ h2 {
   font-size: 32px;
 }
 
-/* Portfolio */
-
-#portfolio {
+#portfolio,
+#profile {
   background-color: #eceff1;
 }
+
+/* Portfolio */
 
 .portfolio-content {
   width: 920px;
@@ -180,4 +182,39 @@ h2 {
   font-size: 60px;
   display: flex;
   justify-content: center;
+}
+
+/* Profile */
+
+.profile-content {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.profile-box {
+  display: flex;
+}
+
+.profile-img-box {
+  width: 512px;
+  text-align: center;
+}
+
+.profile-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.profile-text {
+  width: 512px;
+}
+
+.profile-text h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.skills {
+  margin-top: 20px;
 }
